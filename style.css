@@ -1,0 +1,132 @@
+body{
+    background-image: linear-gradient(to left, rgb(54, 248, 255), rgb(0, 81, 255));
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.646);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 30px;
+    height: 500px;
+    width: 350px;
+    position: relative;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(0, 28, 242);
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.card .img{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: solid 4px rgb(13, 134, 247);
+}
+.card .txt_data{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+
+}
+.card .info .ans{
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.card .txt_data .name{
+    font-weight: bold;
+}
+.info{
+    text-align: left;
+    padding: 10px;
+    padding-left: 40px;
+    margin-top: -30px;
+    font-size:20px;
+    box-shadow: 4px 4px 8px black;
+}
+.social{
+    position:relative;
+    top: -20px;
+    padding: 10px;
+    box-shadow: 4px 4px 8px black;
+}
+.title1{
+    position: relative;
+    left: 120px;
+    top: -10px;
+    bottom: -10;
+    font-size: 20px;
+}
+.title2{
+    position: relative;
+    left: 120px;
+    top: -10px;
+    bottom: -10;
+    font-size: 20px;
+}
+
+.social .fa-brands.fa-instagram.fa-2xl{
+    color:rgb(255, 34, 108);
+    margin-left: 80px;
+
+}
+.social .fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(255, 102, 153);
+}
+
+.social .fa-brands.fa-twitter.fa-2xl{
+    color: rgb(0, 166, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.social .fa-brands.fa-twitter.fa-2xl:hover{
+    color: rgb(78, 193, 255);
+}
+.social .fa-brands.fa-square-facebook.fa-2xl{
+    color: rgb(0, 89, 255);
+}
+.social .fa-brands.fa-square-facebook.fa-2xl:hover{
+    color: rgb(60, 127, 251);
+}
+h4{
+    text-shadow: 4px 3px 4px black;
+}
+
+.go{
+    width: 10;
+    height: 10;
+    border-style: solid;
+    border-width: 30px 0 30px 52px; 
+    border-color: transparent transparent transparent #0008ff;
+    background-color: transparent;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+}
+
+.back{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 0 30px 52px; 
+    border-color: transparent transparent transparent #00ffe5;
+    background-color: transparent;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
